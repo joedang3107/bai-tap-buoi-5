@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: sans-serif;
+}
+#header {
+    background-image: url(./images/Rectangle\ 9.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1210px;
+    height: 156px;
+    margin: 0 auto;
+    position: static;
+}
+.menu-container {
+    width: 325PX;
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 240px;
+}
+.menu-container a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    line-height: 40px;
+}
+.container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+    height: 78px;
+    position: absolute;
+    left: 570px;
+}
+.container .brands {
+    width: 200x;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 150px;
+}
+.container .brands img {
+    margin: 0 10px;
+}
+#header .best-products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .best-products .start {
+    width: 35%;
+}
+#header .best-products .start h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+#header .best-products .start h4 {
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+}
+#header .try {
+    display: block;
+    width: 236px;
+    height: 52px;
+    background-color: #2091f9;
+    text-decoration: none;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    margin: 70px auto;
+    border-radius: 30px;
+}
+.kc1 {
+    margin-top: 30px;
+}
+#features-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#features-container .features {
+    width: 25%;
+}
+
+#features-container .features h2 {
+    color: #252b42;
+    text-align: center;
+}
+#features-container .features h4 {
+    color: #252b42;
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+#features-container .f {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+}
+#features-container .f .f1,
+#features-container .f .f2,
+#features-container .f .f3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+#features-container .f .f1 img,
+#features-container .f .f2 img,
+#features-container .f .f3 img {
+    display: block;
+    width: 55px;
+    height: auto;
+    margin: 20px auto;
+}
+#features-container .f .f1 h3,
+#features-container .f .f2 h3 ,
+#features-container .f .f3 h3  {
+    text-align: center;
+    color: #252b42;
+    margin-bottom: 15px;
+}
+#features-container .f .f1 p,
+#features-container .f .f2 p,
+#features-container .f .f3 p {
+    text-align: center;
+    color:#252b42;
+    opacity: 0.8;
+}
+#organize {
+    width: 100%;
+    margin-top: 90px;
+}
+#organize .container {
+    width: 1210px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#organize .container .organize-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+#organize .container .organize-container h2 {
+    padding-right: 90px;
+    margin-bottom: 15px;
+    color: #252b42;
+}
+#organize .container .organize-container h4 {
+    padding-right: 40px;
+    color: #252b42;
+    margin-bottom: 30px;
+}
+#organize .container .organize-container a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #2091f9;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+}
+#organize .container img {
+    width: 350px;
+    height: auto;
+}
+#prototyping {
+    width: 100%;
+    margin-top: 100px;
+}
+#prototyping .container {
+    width: 1210px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#prototyping .container img {
+    width: 350px;
+    height: auto;
+}
+#prototyping .container .container-text {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#prototyping .container .container-text .text1 {
+    color: #252b42;
+    width: 200px;
+    margin-bottom: 20px;
+}
+#prototyping .container .container-text .text1 h3 {
+    margin-bottom: 10px;
+}
+#prototyping .container .container-text .text2 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    color: #252b42;
+}
+#prototyping .container .container-text .text2 .subcribe {
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#prototyping .container .container-text .text2 .subcribe input {
+    width: 200px;
+    height: 40px;
+    text-indent: 10px;
+    border-radius: 39px;
+    background-color: #f4f4f4;
+    border: 1px solid #E8E8E8;
+}
+#prototyping .container .container-text .text2 .subcribe a {
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    height: 40px;
+    background-color: #2091f9;
+    color: #fff;
+    border-radius: 39px;
+    text-align: center;
+    line-height: 40px;
+}
+#brands {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#brands .container {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#brands .container h2 {
+    color: #252b42;
+    margin-bottom: 10px;
+}
+#brands .container h4 {
+    text-align: center;
+    color: #252b42;
+    margin-bottom: 60px;
+}
+#brands img {
+    width: 800px;
+    height: auto;
+}
+#brands a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #2091f9;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 39px;
+    color: #fff;
+    line-height: 50px;
+    margin-top: 40px;
+}
+#pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#pricing .container {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#pricing .container h2 {
+    color: #252b42;
+    margin-bottom: 10px;
+}
+#pricing .container h4 {
+    text-align: center;
+    color: #252b42;
+    margin-bottom: 60px;
+}
+#pricing .img-container {
+    width: 1210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: #252b42;
+}
+#footer .container {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .container .container1 {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer .container .container1 .pages,
+#footer .container .container1 .tomothy,
+#footer .container .container1 .jane {
+    display: flex;
+    flex-direction: column;
+}
+#footer .container .container1 .pages h3,
+#footer .container .container1 .tomothy h3,
+#footer .container .container1 .jane h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#footer .container .container1 .pages a,
+#footer .container .container1 .tomothy a,
+#footer .container .container1 .jane a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+#footer .container .container2 {
+    width: 280px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .container .container2 .address,
+#footer .container .container2 .phone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#footer .container .container2 .address address,
+#footer .container .container2 .phone address  {
+    color: #fff;
+}
+#footer .container .container2 .label{
+    width: 140px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
